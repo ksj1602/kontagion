@@ -1,5 +1,12 @@
 # Kontagion
 
+Source code contained in: `Kontagion/`
+
+The highlights of my implementation are in the following files:
+
+- `Actor.cpp` and `Actor.h`: Control all the actors in the game which is almost everything visible on the screen, including the player, the bacteria, the dirt piles, the goodies, the sprays, the flamethrowers, etc.
+- `StudentWorld.cpp` and `StudentWorld.h`: Control the game itself, i.e. whether the game has ended, which actors are present in the game, adding and removing actors, moving actors, cleaning up memory after the game has ended, etc.
+
 Kontagion is an action game implemented in C++.
 
 This implementation will only work on macOS. It requires that XQuartz is installed.
